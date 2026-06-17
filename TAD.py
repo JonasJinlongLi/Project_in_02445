@@ -22,7 +22,7 @@ instruks = "Answer the following queestion in one word or short phrase. Always g
 
 ### Modellauswahl ####
 model_st = SentenceTransformer("multi-qa-MiniLM-L6-cos-v1")
-model_gpt4all= GPT4All(model_name="Phi-3-mini-4k-instruct.Q4_0.gguf", model_path=r"C:\Users\e3074\.cache\gpt4all",allow_download=False)
+model_gpt4all= GPT4All(model_name="Phi-3-mini-4k-instruct.Q4_0.gguf", model_path=r"",allow_download=False)
 
 """
 model_gpt4all = GPT4All("Phi-3-mini-4k-instruct.Q4_0.gguf")
